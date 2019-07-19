@@ -1,0 +1,50 @@
+{
+  "name": "billsplit",
+  "version": "1.0.0",
+  "description": "Application that splits bills based on number of days spent by each person",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=app & nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bill",
+    "split",
+    "cash",
+    "shared"
+  ],
+  "author": "M Jameel Baig",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "chalk": "^2.4.1",
+    "css-loader": "^2.1.1",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "popper.js": "^1.14.6",
+    "pug": "^2.0.3",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 3500
+    }
+  }
+}
