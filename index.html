@@ -12,26 +12,31 @@
         <h1>Hello World</h1>
         <form>
             <div class="row">
-                <div class="col">
+                <div class="col-md">
                     <input type="text" name="totalamt" id="totalamt" class="form-control" placeholder="Total Amount">
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <input type="number" name="nheads" id="nheads" class="form-control" placeholder="Number of Heads">
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <input type="number" name="ndays" id="ndays" class="form-control" placeholder="Total Days">
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     <a href="#" onclick="onSubmit()" class="btn btn-primary">Submit</a>
+                    <a href="#" onclick="clearField()" class="btn btn-danger">Clear</a>
                 </div>
-            </div>
-            <div id="heads" class="row">
-                
+
             </div>
         </form>
-        <div id="result" class="row">
+        <form>
+            <div id="heads">
+
+            
+            </div>
+        </form>
+        <div id="result" class="row justify-content-center">
 
         </div>
     </div>
