@@ -18,7 +18,7 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "chalk": "^2.4.1",
-    "css-loader": "^2.1.1",
+    "css-loader": "^6.7.3",
     "debug": "^4.1.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
@@ -28,7 +28,7 @@
     "popper.js": "^1.14.6",
     "pug": "^2.0.3",
     "script-loader": "^0.7.2",
-    "style-loader": "^0.23.1"
+    "style-loader": "^3.3.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
